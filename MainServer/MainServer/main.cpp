@@ -4,6 +4,11 @@ int main()
 {
 	Server mainServer("127.0.0.1", 1111);
 	
+	std::cout << "To add file in server you need to do it manualy" << std::endl;
+	std::cout << "Goto MainServer >> file folder." << std::endl;
+	std::cout << "put any file there and in Server class Constructor " << std::endl;
+	std::cout << "use this commend  _file.push_back(file name);\n" << std::endl;
+	
 	if (!mainServer.initSocket())
 		return 0;
 
