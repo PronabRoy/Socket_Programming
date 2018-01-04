@@ -7,12 +7,8 @@ Server::Server(std::string ip, int port)
 	this->_port = port;
 	myServer = this;
 
-	_file.push_back("Song0.mp4");
-	_file.push_back("Song1.mp4");
-	_file.push_back("Song2.mp4");
 	_file.push_back("images.jpg");
-	_file.push_back("C++.png"); 
-	_file.push_back("Cline.rar");
+	_file.push_back("C++.png");  
 }
 
 bool Server::initSocket()
